@@ -1,0 +1,28 @@
+.check-icon {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #23f503;
+}
+.check-icon:hover {
+  background-color: #38722f;
+}
+.list-ul {
+  background: #ccc;
+  list-style: none;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.button-item {
+  display: flex;
+  gap: 5px;
+}
+.completed {
+  text-decoration: line-through;
+}
